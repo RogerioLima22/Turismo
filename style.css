@@ -1,6 +1,35 @@
 #banner{
 	width: 100%;
 }
+.principal{
+	background:#F0E68C ;
+	padding: 30px;
+
+}
 .titulo-principal{
 	padding-left: 20%;
+}
+.titulo-centralizado{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+#missao{
+	font-size:20px ;
+}
+
+.viagem-centralizado{
+	text-align: center;
+}
+.itens{
+	font-style: italic;
+}
+
+#imagens{
+	width: 800px!important;
+	height: 600px!important;
+	margin: 30px;
 }
