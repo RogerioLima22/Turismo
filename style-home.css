@@ -1,0 +1,54 @@
+#banner{
+	width: 100%;
+}
+.principal{
+	background:#F0E68C ;
+	padding: 30px;
+
+}
+.titulo-principal{
+	padding-left: 1%;
+}
+.titulo-centralizado{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+#missao{
+	font-size:20px ;
+}
+
+.viagem-centralizado{
+	text-align: center;
+	padding: 1%;
+}
+.itens{
+	font-style: italic;
+}
+
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 6%;
+}
+
+footer{
+	text-align: center;
+	padding: 90px 0;
+}
+
+#logo{
+	width: 10%;
+}
+
+.copyrigth {
+	color: #FFFFFF;
+	background: #4682B4;
+	font-size: 15px;
+	margin: 15px 0 0;
+}
+
+

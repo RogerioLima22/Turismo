@@ -1,54 +1,42 @@
-#banner{
-	width: 100%;
+header{
+	background:#F0E68C;
+	padding: 20px 0;
 }
-.principal{
-	background:#F0E68C ;
-	padding: 30px;
-
-}
-.titulo-principal{
-	padding-left: 1%;
-}
-.titulo-centralizado{
-	text-align: center;
+#imagem{
+	width: 50%;
+	margin: 15px 0 15px 15px;
 }
 
-p{
-	text-align: center;
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav{
+	position: absolute;
+	top: 90px;
+	right: 0;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
-#missao{
-	font-size:20px ;
-}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
 
-.viagem-centralizado{
-	text-align: center;
-	padding: 1%;
 }
-.itens{
-	font-style: italic;
-}
-
-ul{
-	display: inline-block;
-	vertical-align: top;
-	width: 6%;
-}
-
 footer{
 	text-align: center;
 	padding: 90px 0;
 }
-
-#logo{
-	width: 10%;
-}
-
 .copyrigth {
 	color: #FFFFFF;
 	background: #4682B4;
 	font-size: 15px;
 	margin: 15px 0 0;
 }
-
-
