@@ -7,7 +7,7 @@
 
 }
 .titulo-principal{
-	padding-left: 20%;
+	padding-left: 1%;
 }
 .titulo-centralizado{
 	text-align: center;
@@ -23,13 +23,32 @@ p{
 
 .viagem-centralizado{
 	text-align: center;
+	padding: 1%;
 }
 .itens{
 	font-style: italic;
 }
 
-#imagens{
-	width: 800px!important;
-	height: 600px!important;
-	margin: 30px;
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 6%;
 }
+
+footer{
+	text-align: center;
+	padding: 90px 0;
+}
+
+#logo{
+	width: 10%;
+}
+
+.copyrigth {
+	color: #FFFFFF;
+	background: #4682B4;
+	font-size: 15px;
+	margin: 15px 0 0;
+}
+
+
