@@ -9,7 +9,7 @@
 	<body>
 		<header>
 			<div class="caixa">
-				<h1><img id="imagem"src="imagem_Contato.jpg"></h1>
+				<h1><img id="imagem"src="imagem_Contato.jpg" alt="Imagem Onibus na Rodovia"></h1>
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -21,19 +21,47 @@
 		<main>
 			<form>
 				<label for="nomesobrenome">Nome e Sobrenome</label>
-				<input type="text" id="nomesobrenome">
+				<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="(ex:)Rogerio Lima">
 
 				<label for="email">Email</label>
-				<input type="text" id="email">
+				<input type="email" id="email"class="input-padrao" required placeholder="seuemail@dominio.com">
 
 				<label for="telefone">Telefone</label>
-				<input type="text" id="telefone">
+				<input type="tel" id="telefone"class="input-padrao"required placeholder="(xx)xxxx-xxxx">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem"class="input-padrao"required></textarea>
+
+				<fieldset>
+
+					<legend>Como prefere nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+					
+
+					<label for="radio-telefone"><input type="radio" name="contato" value="radio-telefone">Telefone</label>
+					
+
+					<label for="radio-whatssap"><input type="radio" name="contato" value=" radio-whatssap" checked>WhatsApp</label>
+					
+				</fieldset>
+				<fieldset>
+					<legend>Qual horario prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox"checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
 				
 			</form>
 			
 		</main>
 		<footer>
-			<img id="logo" src="logopng.png">
+			<img id="logo" src="logopng.png" alt="Logo da Boa Viage Turismo">
 			<p class="copyrigth"> &copy; Copyrigth Viação Boa Viagem - 2023
 		</footer>
 	</body>

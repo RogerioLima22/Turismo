@@ -12,6 +12,23 @@
 .titulo-centralizado{
 	text-align: center;
 }
+nav{
+	position: absolute;
+	top: 390px;
+	right: 25px;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
 
 p{
 	text-align: center;
@@ -35,20 +52,7 @@ ul{
 	width: 6%;
 }
 
-footer{
-	text-align: center;
-	padding: 90px 0;
-}
 
-#logo{
-	width: 10%;
-}
 
-.copyrigth {
-	color: #FFFFFF;
-	background: #4682B4;
-	font-size: 15px;
-	margin: 15px 0 0;
-}
 
 
